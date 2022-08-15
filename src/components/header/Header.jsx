@@ -18,7 +18,7 @@ const header = () => {
               .typeString("Hey!")
               .pauseFor(1500)
               .deleteAll()
-              .typeString("I'm Rohan Srivastava")
+              .typeString("I'm Rohan Srivastava!")
               .callFunction(function(state) {
                 state.elements.cursor.style.color = 'transparent';
               })
