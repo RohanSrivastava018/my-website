@@ -44,7 +44,7 @@ const About = () => {
               listening to music, and travelling.
               <br/>
               <br/>
-              I am currently recruiting for full-time roles that start in May 2023! If you have any questions/opportunities, please
+              I am currently recruiting for full-time roles that start in May 2023. If you have any questions/opportunities, please
               feel free to reach out!
             </p>
           </article>

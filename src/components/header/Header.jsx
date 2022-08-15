@@ -33,7 +33,7 @@ const header = () => {
                 typewriter
                 .pauseFor(7000)
                 .changeCursor('|')
-                .changeDelay(100)
+                .changeDelay(75)
                 .typeString("Rising Senior @ Georgia Tech")
                 .pauseFor(4900)
                 .callFunction(function(state) {
