@@ -1,6 +1,6 @@
-import React from 'react'
-import './experience.css'
-import {BsFillCheckCircleFill} from 'react-icons/bs'
+import React from 'react';
+import './experience.css';
+import {BsFillCheckCircleFill} from 'react-icons/bs';
 
 const Experience = () => {
   return (

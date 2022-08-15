@@ -1,9 +1,9 @@
-import React from 'react'
-import './header.css'
-import CTA from './CTA'
-import ME from '../../assets/headshot_no-bg.png'
-import HeaderSocial from './HeaderSocials'
-import Typewriter from 'typewriter-effect'
+import React from 'react';
+import './header.css';
+import CTA from './CTA';
+import ME from '../../assets/headshot_no-bg.png';
+import HeaderSocial from './HeaderSocials';
+import Typewriter from 'typewriter-effect';
 
 const header = () => {
   return (

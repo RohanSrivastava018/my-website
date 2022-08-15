@@ -1,9 +1,9 @@
-import React from 'react'
-import './about.css'
-import greece from '../../assets/greece.png'
-import {FaUniversity} from 'react-icons/fa'
-import {GiKnockedOutStars} from 'react-icons/gi'
-import {BsCodeSlash} from 'react-icons/bs'
+import React from 'react';
+import './about.css';
+import greece from '../../assets/greece.png';
+import {FaUniversity} from 'react-icons/fa';
+import {GiKnockedOutStars} from 'react-icons/gi';
+import {BsCodeSlash} from 'react-icons/bs';
 
 const About = () => {
   return (

@@ -1,13 +1,13 @@
-import React from 'react'
-import './portfolio.css'
-import lebron from '../../assets/lebron.png'
-import universe from '../../assets/universe.png'
-import website from '../../assets/website.png'
-import {FaGithub} from 'react-icons/fa'
-import {RiGitlabLine} from 'react-icons/ri'
-import {AiOutlineYoutube} from 'react-icons/ai'
-import {TbBallBasketball} from 'react-icons/tb'
-import {BiSlideshow} from 'react-icons/bi'
+import React from 'react';
+import './portfolio.css';
+import lebron from '../../assets/lebron.png';
+import universe from '../../assets/universe.png';
+import website from '../../assets/website.png';
+import {FaGithub} from 'react-icons/fa';
+import {RiGitlabLine} from 'react-icons/ri';
+import {AiOutlineYoutube} from 'react-icons/ai';
+import {TbBallBasketball} from 'react-icons/tb';
+import {BiSlideshow} from 'react-icons/bi';
 
 
 const Portfolio = () => {
