@@ -82,7 +82,7 @@ const Portfolio = () => {
             </div>
             <h3>This Website!</h3>
             <div className="portfolio_item-cta">
-            <a href="https://github.com" className='btn' target='_blank' rel='noreferrer'>
+            <a href="https://github.com/RohanSrivastava018/my-website" className='btn' target='_blank' rel='noreferrer'>
               <article className='links'>
                 <FaGithub className='git-icon'/> 
                 <div>
