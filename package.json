@@ -1,5 +1,6 @@
 {
   "name": "portfolio-website",
+  "homepage": "http://rohan-srivastava.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

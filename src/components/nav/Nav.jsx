@@ -1,10 +1,10 @@
 import React from 'react';
 import './nav.css';
 import {BsMailbox} from 'react-icons/bs';
-import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
 import {BiBook, BiBriefcaseAlt} from 'react-icons/bi';
 import {FiFolder} from 'react-icons/fi';
 import {useState} from 'react';
+import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
