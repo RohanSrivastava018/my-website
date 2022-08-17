@@ -122,6 +122,10 @@ img {
     section > h2{
         margin-top: 6rem;
     }
+
+    .small-words {
+        display: none
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -131,5 +135,9 @@ img {
 
     section > h2 {
         margin-top: 2rem;
+    }
+
+    .small-words {
+        display: none
     }
 }

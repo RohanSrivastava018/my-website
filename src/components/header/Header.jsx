@@ -9,7 +9,7 @@ const header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h1>
+        <h1 className='top_name'>
           <Typewriter
             onInit={(typewriter) => {
               typewriter

@@ -13,7 +13,7 @@ import {BiSlideshow} from 'react-icons/bi';
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>Some side projects</h5>
+      <h5 className='small-words'>Some side projects</h5>
       <h2>Portfolio</h2>
       
       <div className="container portfolio_container">

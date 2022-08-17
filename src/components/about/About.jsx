@@ -8,7 +8,7 @@ import {BsCodeSlash} from 'react-icons/bs';
 const About = () => {
   return (
     <section id='about'>
-      <h5>Who I am</h5>
+      <h5 className='small-words'>Who I am</h5>
       <h2>About Me</h2>
       <container className="container about_container">
         <div className="about_me">
