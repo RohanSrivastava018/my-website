@@ -5,18 +5,18 @@ import {BsLinkedin} from 'react-icons/bs';
 import {BsPhone} from 'react-icons/bs';
 
 import { useRef } from 'react';
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs.sendForm('service_wm3ehen', 'template_eq85jkg', form.current, 'L6V7yol3bMMUzRgPp')
+    emailjs.sendForm('service_wm3ehen', 'template_eq85jkg', form.current, 'L6V7yol3bMMUzRgPp')
 
-  //   e.target.reset();
-  // };
+    e.target.reset();
+  };
 
   return (
     <section id='contact'>
@@ -44,8 +44,8 @@ const Contact = () => {
               </article>
           </div>
 
-          {/* <form ref={form} onSubmit={sendEmail}> */}
-          <form action="">
+          <form ref={form} onSubmit={sendEmail}>
+          {/* <form action=""> */}
               <input type="text" name="name" placeholder='Your Full Name' required/>
               <input type="text" name='email' placeholder='Your Email' required/>
               <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
