@@ -11,7 +11,7 @@ const Services = () => {
         <article className='service'>
             <div className="service_head">
                 <h3>L3Harris Technologies</h3>
-                <h6 className='company'>Image Science Enginnering Intern</h6>
+                <h6 className='company'>Image Science Engineering Intern</h6>
             </div>
 
             <ul className='service_list'>
