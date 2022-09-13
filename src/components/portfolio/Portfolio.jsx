@@ -31,15 +31,15 @@ const Portfolio = () => {
                   </div>
                 </article>
               </a>
-              <a href='https://nba.com' className='btn btn-primary' target='_blank' rel='noreferrer'>
+              {/* <a href='https://nba.com' className='btn btn-primary' target='_blank' rel='noreferrer'> */}
                 {/* https://lebron-or-kareem-flask.herokuapp.com */}
-                <article className='links'>
-                  <TbBallBasketball className='git-icon'/> 
-                  <div>
-                    check it out!
-                  </div>
-                </article>
-              </a>
+                {/* <article className='links'> */}
+                  {/* <TbBallBasketball className='git-icon'/>  */}
+                  {/* <div> */}
+                    {/* check it out! */}
+                  {/* </div> */}
+                {/* </article> */}
+              {/* </a> */}
             </div>
         </article>
 
