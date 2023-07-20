@@ -60,8 +60,8 @@ const header = () => {
               }}
           />
         </h5> */}
-        <h5 className='text-light'>Senior @ Georgia Tech</h5>
-        <h5 className='text-light'>Currently recruiting for full time roles that start in May 2023.</h5>
+        <h5 className='text-light'>Georgia Tech Alum</h5>
+        <h5 className='text-light'>Image Science Engineer @ L3Harris Technologies</h5>
 
         <CTA />
         <HeaderSocial />

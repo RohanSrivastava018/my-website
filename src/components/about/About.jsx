@@ -39,13 +39,10 @@ const About = () => {
           </div>
           <article className='text'>
             <p>
-              I'm a College of Sciences Dean's Scholar @ GT majoring in Physics with a minor in Computer Science. I am deeply intrigued 
-              by the intersection between computer science and space exploration! I really enjoy playing basketball, coding, learning,
+              I recently graduated from GT with a Bachelors of Science in Physics and a minor in Computer Science. I'm beginning a new role 
+              as an Image Science Engineer at L3Harris Technologies. I am deeply intrigued by machine learning, specifically computer vision, 
+              and am actively working to gain knowledge and experience in this field. I really enjoy playing basketball, coding, learning, 
               listening to music, and travelling.
-              <br/>
-              <br/>
-              I am currently recruiting for full-time roles that start in May 2023. If you have any questions/opportunities, please
-              feel free to reach out!
             </p>
           </article>
 

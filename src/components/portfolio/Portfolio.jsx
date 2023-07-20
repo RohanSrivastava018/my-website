@@ -1,8 +1,10 @@
 import React from 'react';
 import './portfolio.css';
+import wildfire from '../../assets/wildfire.jpeg'
 import lebron from '../../assets/lebron.png';
 import universe from '../../assets/universe.png';
 import website from '../../assets/website.png';
+import {AiOutlineFire} from 'react-icons/ai'
 import {FaGithub} from 'react-icons/fa';
 import {RiGitlabLine} from 'react-icons/ri';
 import {AiOutlineYoutube} from 'react-icons/ai';
@@ -17,6 +19,33 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       
       <div className="container portfolio_container">
+        <article className='portfolio_item'>
+            <div className='portfolio_item-image'>
+                <img src={wildfire} alt="Wildfire Classifier" />
+            </div>
+            <h3>Lebron Or Kareem?</h3>
+            <div className="portfolio_item-cta">
+              <a href="https://rohansrivastava018.github.io/ml_project/" className='btn' target='_blank' rel='noreferrer'>
+                <article className='links'>
+                  <AiOutlineFire className='git-icon'/> 
+                  <div>
+                    check it out!
+                  </div>
+                </article>
+              </a>
+              {/* <a href='https://nba.com' className='btn btn-primary' target='_blank' rel='noreferrer'> */}
+                {/* https://lebron-or-kareem-flask.herokuapp.com */}
+                {/* <article className='links'> */}
+                  {/* <TbBallBasketball className='git-icon'/>  */}
+                  {/* <div> */}
+                    {/* check it out! */}
+                  {/* </div> */}
+                {/* </article> */}
+              {/* </a> */}
+            </div>
+        </article>
+
+
         <article className='portfolio_item'>
             <div className='portfolio_item-image'>
                 <img src={lebron} alt="Lebron Or Kareem?" />
