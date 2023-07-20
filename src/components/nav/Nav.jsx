@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, {useEffect, useRef } from 'react';
 import './nav.css';
 import {BsMailbox} from 'react-icons/bs';
 import {BiHome, BiUser, BiBook, BiBriefcaseAlt} from 'react-icons/bi';
