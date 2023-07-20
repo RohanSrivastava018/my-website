@@ -1,5 +1,6 @@
 import React from 'react';
 import './portfolio.css';
+import biltmore from '../../assets/biltmore.jpeg'
 import wildfire from '../../assets/wildfire.jpeg'
 import lebron from '../../assets/lebron.png';
 import universe from '../../assets/universe.png';
@@ -23,7 +24,7 @@ const Portfolio = () => {
             <div className='portfolio_item-image'>
                 <img src={wildfire} alt="Wildfire Classifier" />
             </div>
-            <h3>Lebron Or Kareem?</h3>
+            <h3>Wildfire Classifier</h3>
             <div className="portfolio_item-cta">
               <a href="https://rohansrivastava018.github.io/ml_project/" className='btn' target='_blank' rel='noreferrer'>
                 <article className='links'>
@@ -42,6 +43,23 @@ const Portfolio = () => {
                   {/* </div> */}
                 {/* </article> */}
               {/* </a> */}
+            </div>
+        </article>
+
+        <article className='portfolio_item'>
+            <div className='portfolio_item-image'>
+                <img src={biltmore} alt="Biltmore Estate" />
+            </div>
+            <h3>House Price Predictor</h3>
+            <div className="portfolio_item-cta">
+            <a href="https://github.com/RohanSrivastava018/house-price-prediction" className='btn' target='_blank' rel='noreferrer'>
+              <article className='links'>
+                <FaGithub className='git-icon'/> 
+                <div>
+                  src
+                </div>
+              </article>
+            </a>
             </div>
         </article>
 
