@@ -19,7 +19,7 @@ const Nav = () => {
           }
         });
       },
-      { rootMargin: '-49% 0% -50% 0%' } // Adjust this rootMargin as per your needs
+      { rootMargin: '-49% 0% -48% 0%' } // Adjust this rootMargin as per your needs
     );
 
     const sections = document.querySelectorAll('section[id]');
