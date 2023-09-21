@@ -8,6 +8,35 @@ const Services = () => {
       <h2>Previous Experience</h2>
 
       <div className="container services_container">
+
+        <article className='service'>
+            <div className="service_head">
+                <h3>L3Harris Technologies</h3>
+                <h6 className='company'>Associate Image Science Engineer</h6>
+            </div>
+
+            <ul className='service_list'>
+                <li>
+                    <p>
+                        Developed a novel subpixel image registration technique using a CNN via TensorFlow that leverages cross correlation
+                        data processing of image pairs to predict shifts with 96.8% accuracy at a 0.5 pixel resolution
+                    </p>
+                </li>
+                <hr className='line'/>
+                <li className='odd'>
+                    <p>
+                        Improved an existing image registration framework to succesfully idenity subpixel shifts in satellite imagery to 1/10th
+                        of a pixel using OpenCV, FFT based techniques, and data detrending
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Carried out cross validation of parameters to increase the accuracy of the existing registration framework by 90%
+                    </p>
+                </li>
+            </ul>
+        </article>
+
         <article className='service'>
             <div className="service_head">
                 <h3>L3Harris Technologies</h3>
@@ -63,7 +92,7 @@ const Services = () => {
             </ul>
         </article>
 
-
+        {/*
         <article className='service'>
             <div className="service_head">
                 <h3>AMOP Group @ GT</h3>
@@ -84,6 +113,7 @@ const Services = () => {
                 </li>
             </ul>
         </article>
+        */}
       </div>
     </section>
   )
