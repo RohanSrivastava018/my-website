@@ -5,12 +5,14 @@ import wildfire from '../../assets/wildfire.jpeg'
 import lebron from '../../assets/lebron.png';
 import universe from '../../assets/universe.png';
 import website from '../../assets/website.png';
+import step_calc from '../../assets/step_calc.png'
 import {AiOutlineFire} from 'react-icons/ai'
 import {FaGithub} from 'react-icons/fa';
 import {RiGitlabLine} from 'react-icons/ri';
 import {AiOutlineYoutube} from 'react-icons/ai';
 import {TbBallBasketball} from 'react-icons/tb';
 import {BiSlideshow} from 'react-icons/bi';
+import {BsCalculator} from 'react-icons/bs'
 
 
 const Portfolio = () => {
@@ -60,6 +62,31 @@ const Portfolio = () => {
                 </div>
               </article>
             </a>
+            </div>
+        </article>
+
+        <article className='portfolio_item'>
+            <div className='portfolio_item-image'>
+                <img src={step_calc} alt="Step Calculator Website" />
+            </div>
+            <h3>Step Calculator Website</h3>
+            <div className="portfolio_item-cta">
+              <a href="https://www.step-calc.com/" className='btn' target='_blank' rel='noreferrer'>
+                <article className='links'>
+                  <BsCalculator className='git-icon'/> 
+                  <div>
+                    check it out!
+                  </div>
+                </article>
+              </a>
+              <a href='https://github.com/RohanSrivastava018/step-calculator' className='btn btn-primary' target='_blank' rel='noreferrer'>
+                <article className='links'>
+                  <FaGithub className='git-icon'/> 
+                  <div>
+                    src
+                  </div>
+                </article>
+              </a>
             </div>
         </article>
 
