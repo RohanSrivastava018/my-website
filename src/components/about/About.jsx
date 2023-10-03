@@ -39,10 +39,10 @@ const About = () => {
           </div>
           <article className='text'>
             <p>
-              I recently graduated from GT with a Bachelors of Science in Physics and a minor in Computer Science. I'm beginning a new role 
-              as an Image Science Engineer at L3Harris Technologies. I am deeply intrigued by machine learning, specifically computer vision, 
-              and am actively working to gain knowledge and experience in this field. I really enjoy playing basketball, coding, learning, 
-              listening to music, and travelling.
+              I recently graduated from GT with a Bachelors of Science in Physics and a minor in Computer Science. I've started a new role 
+              as an Image Science Engineer at L3Harris Technologies, where I am currently developing deep learning solutions to image registration. 
+              I am deeply intrigued by machine learning, specifically computer vision, and am actively working to gain knowledge and experience 
+              in this field. I really enjoy playing basketball, coding, learning, listening to music, and travelling.
             </p>
           </article>
 
