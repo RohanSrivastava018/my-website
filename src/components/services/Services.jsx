@@ -18,20 +18,21 @@ const Services = () => {
             <ul className='service_list'>
                 <li>
                     <p>
-                        Developed a novel subpixel image registration technique using a CNN via TensorFlow that leverages cross correlation
-                        data processing of image pairs to predict shifts with 96.8% accuracy at a 0.5 pixel resolution
+                        Developing a novel sub-pixel frame-to-frame registration routine from the ground up using OpenCV, feature
+                        matching, and Fourier Transform based techniques that will outperform the current industry leading algorithm
                     </p>
                 </li>
                 <hr className='line'/>
                 <li className='odd'>
                     <p>
-                        Improved an existing image registration framework to succesfully idenity subpixel shifts in satellite imagery to 1/10th
-                        of a pixel using OpenCV, FFT based techniques, and data detrending
+                        Created a Convolution Neural Network machine learning pipeline via TensorFlow that leverages cross correlation
+                        surfaces of images to predict translational misalignment with 96.8% accuracy at a 0.5 pixel resolution
                     </p>
                 </li>
                 <li>
                     <p>
-                        Carried out cross validation of parameters to increase the accuracy of the existing registration framework by 90%
+                        Improved an existing image registration framework by employing cross validation of parameters, which lead to a 90%
+                        decrease in errors of translational shift predictions in satellite imagery, and ported the entire codebase to Python
                     </p>
                 </li>
             </ul>
@@ -46,20 +47,19 @@ const Services = () => {
             <ul className='service_list'>
                 <li>
                     <p>
-                        Developed ∼2000 lines of code to propagate satellites in cislunar space under the physical laws of the circularly
-                        restricted three body problem through a python interface of the General Mission Analysis Tool (GMAT) API
+                        Developed ∼2,000 lines of code to simulate satellite orbits in cislunar space under the physical laws of the circularly
+                        restricted three body problem through a Python interface of the General Mission Analysis Tool (GMAT) API
                     </p>
                 </li>
                 <hr className='line'/>
                 <li className='odd'>
                     <p>
-                        Built a hierarchy of automated python files that will allow a user to easily simulate of hundreds of satellites
+                        Built a hierarchy of python files that will allow a user to easily simulate up to 150 orbits in less than 2 minutes
                     </p>
                 </li>
                 <li>
                     <p>
-                        Reading/writing data from and to .csv and .xlsx files for ground stations on Earth to be able to see and know
-                        where the satellites are currently and where they are going
+                        Automated the process of writing data from simulations to external files efficiently using Pandas
                     </p>
                 </li>
             </ul>
@@ -86,7 +86,7 @@ const Services = () => {
                 </li>
                 <li>
                     <p>
-                        Utilize Linux command-line prompts on a local machine to offload jobs to HIVE (Georgia Tech supercomputer)
+                        Utilize Linux command-line prompts on a local machine to offload jobs to HIVE (Georgia Tech Linux cluster)
                     </p>
                 </li>
             </ul>

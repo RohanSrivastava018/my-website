@@ -98,16 +98,8 @@ const Experience = () => {
 
 
         <div className="experience_technologies">
-        <h3>Technologies</h3>
+        <h3>Technologies & Packages</h3>
           <div className="experience_content">
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>VSCode</h4>
-                <small className='text-light'>Proficient</small>
-              </div>
-            </article>
-
             <article className='experience_details'>
               <BsFillCheckCircleFill className='experience_details-icon'/>
               <div>
@@ -135,14 +127,6 @@ const Experience = () => {
             <article className='experience_details'>
               <BsFillCheckCircleFill className='experience_details-icon'/>
               <div>
-                <h4>Git</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
                 <h4>macOS</h4>
                 <small className='text-light'>Proficient</small>
               </div>
@@ -151,7 +135,23 @@ const Experience = () => {
             <article className='experience_details'>
               <BsFillCheckCircleFill className='experience_details-icon'/>
               <div> 
-                <h4>Windows OS</h4>
+                <h4>NumPy</h4>
+                <small className='text-light'>Proficient</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>OpenCV</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>VSCode</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -167,16 +167,16 @@ const Experience = () => {
             <article className='experience_details'>
               <BsFillCheckCircleFill className='experience_details-icon'/>
               <div>
-                <h4>GMAT</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>PyTorch</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
 
             <article className='experience_details'>
               <BsFillCheckCircleFill className='experience_details-icon'/>
               <div>
-                <h4>Unity</h4>
-                <small className='text-light'>Beginner</small>
+                <h4>Git</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
           </div>
