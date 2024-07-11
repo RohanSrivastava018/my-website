@@ -1,6 +1,6 @@
 .experience_container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     justify-items: center;
 }
@@ -56,12 +56,12 @@
 .experience_container > .experience_skills {
     grid-column: span 2; /* Span across both columns */
     text-align: center;
+    width: 50%;
 }
 
 @media screen and (max-width: 1024px) {
     .experience_container {
         grid-template-columns: 1fr;
-        gap: 2rem;
     }
 
     .experience_content > div {
@@ -72,6 +72,10 @@
 
     .experience_content {
         padding: 1rem;
+    }
+
+    .experience_container > .experience_skills {
+        width: 100%;
     }
 }
 
