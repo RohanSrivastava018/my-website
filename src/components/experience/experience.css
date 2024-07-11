@@ -1,16 +1,27 @@
 .experience_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     justify-items: center;
 }
 
 .experience_container > div {
+    /* background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition); */
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px; /* Ensures all boxes have the same minimum height */
+    width: 100%; /* Ensure full width within the grid columns */
 }
 
 .experience_container > div:hover {
@@ -50,12 +61,13 @@
 @media screen and (max-width: 1024px) {
     .experience_container {
         grid-template-columns: 1fr;
+        gap: 2rem;
     }
 
     .experience_content > div {
-        width: 80%;
+        width: 100%;
         padding: 2rem;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
     .experience_content {
