@@ -18,21 +18,21 @@ const Services = () => {
             <ul className='service_list'>
                 <li>
                     <p>
-                        Developing a novel sub-pixel frame-to-frame registration routine from the ground up using OpenCV, feature
-                        matching, and Fourier Transform based techniques that will outperform the current industry leading algorithm
+                        Developing an artifact detection machine learning framework and an automated data generation pipeline using
+                        TensorFlow, NumPy, and scikit-learn, employing semantic segmentation with U-Nets and Fourier analysis
                     </p>
                 </li>
                 <hr className='line'/>
                 <li className='odd'>
                     <p>
-                        Created a Convolution Neural Network machine learning pipeline via TensorFlow that leverages cross correlation
-                        surfaces of images to predict translational misalignment with 96.8% accuracy at a 0.5 pixel resolution
+                        Conducted extensive parameter searches, training hundreds of models using CUDA-accelerated GPU computing in a
+                        Linux environment, and implemented custom evaluation metrics to determine best performing models
                     </p>
                 </li>
                 <li>
                     <p>
-                        Improved an existing image registration framework by employing cross validation of parameters, which lead to a 90%
-                        decrease in errors of translational shift predictions in satellite imagery, and ported the entire codebase to Python
+                        Collaborated with subject matter experts to refine and apply automated key point extraction, feature matching, and
+                        filtration algorithms in the Fourier domain, addressing customer-specific requirements for enhanced imagery solutions
                     </p>
                 </li>
             </ul>
@@ -47,19 +47,21 @@ const Services = () => {
             <ul className='service_list'>
                 <li>
                     <p>
-                        Developed ∼2,000 lines of code to simulate satellite orbits in cislunar space under the physical laws of the circularly
-                        restricted three body problem through a Python interface of the General Mission Analysis Tool (GMAT) API
+                        Designed algorithms for satellite propagation in cislunar space, addressing complex equations of motion from Earth and
+                        Moon’s gravity, enhancing state estimation using expertise in physics, orbital mechanics, and programming
                     </p>
                 </li>
                 <hr className='line'/>
                 <li className='odd'>
                     <p>
-                        Built a hierarchy of python files that will allow a user to easily simulate up to 150 orbits in less than 2 minutes
+                        Developed a Python module for the General Mission Analysis Tool (GMAT) API, enabling ground stations to receive
+                        accurate state vector information from satellites post-detection
                     </p>
                 </li>
                 <li>
                     <p>
-                        Automated the process of writing data from simulations to external files efficiently using Pandas
+                        Gained valuable experience in teamwork and code design, contributing to the development and testing of efficient,
+                        robust software solutions in a multidisciplinary engineering environment
                     </p>
                 </li>
             </ul>

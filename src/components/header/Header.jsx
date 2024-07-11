@@ -60,8 +60,8 @@ const header = () => {
               }}
           />
         </h5> */}
-        <h5 className='text-light'>Georgia Tech Alum</h5>
         <h5 className='text-light'>Image Science Engineer @ L3Harris Technologies</h5>
+        <h5 className='text-light'>B.S. in Physics | Minor in Computing & Intelligence | Georgia Tech</h5>
 
         <CTA />
         <HeaderSocial />

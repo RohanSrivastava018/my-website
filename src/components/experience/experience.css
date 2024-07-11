@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    justify-items: center;
 }
 
 .experience_container > div {
@@ -39,6 +40,11 @@
 .experience_details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+}
+
+.experience_container > .experience_skills {
+    grid-column: span 2; /* Span across both columns */
+    text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
