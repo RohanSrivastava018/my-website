@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="footer_socials">
         <a href='https://www.linkedin.com/in/rohan018/' target='_blank' rel="noreferrer"><BsLinkedin /></a>
         <a href='https://github.com/RohanSrivastava018' target='_blank' rel="noreferrer"><FaGithub /></a>
-        <a href="mailto:rsrivastava61@gatech.edu" target='_blank' rel="noreferrer"><MdOutlineEmail /></a>
+        <a href="mailto:rohan.srivastava018@gmail.com" target='_blank' rel="noreferrer"><MdOutlineEmail /></a>
       </div>
     </footer>
   )
