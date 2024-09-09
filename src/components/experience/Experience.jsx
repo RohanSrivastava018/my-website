@@ -10,7 +10,7 @@ const Experience = () => {
       
       <div className="container experience_container">
 
-        <div className="experience_languages">
+        {/* <div className="experience_languages">
           <h3>Languages & Frameworks</h3>
           <div className="experience_content">
             <article className='experience_details'>
@@ -93,8 +93,92 @@ const Experience = () => {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
 
+        <div className="experience_skills">
+        <h3>Working Skills</h3>
+          <div className="experience_content">
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>Deep Learning</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>Computer Vision</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>Image Segmentation</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>Linear Algebra</h4>
+                <small className='text-light'>Proficient</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div> 
+                <h4>Data Augmentation</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>GPU Computing</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>Model Evaluation</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>Data Science</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>Integration & Testing</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsFillCheckCircleFill className='experience_details-icon'/>
+              <div>
+                <h4>Version Control</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+          </div>
+          </div>
 
 
         <div className="experience_technologies">
@@ -181,91 +265,6 @@ const Experience = () => {
             </article>
           </div>
         </div>
-
-        <div className="experience_skills">
-        <h3>Working Skills</h3>
-          <div className="experience_content">
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>Deep Learning</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>Computer Vision</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>Image Segmentation</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>Linear Algebra</h4>
-                <small className='text-light'>Proficient</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div> 
-                <h4>Data Augmentation</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>GPU Computing</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>Model Evaluation</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>Data Science</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>Integration & Testing</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-
-            <article className='experience_details'>
-              <BsFillCheckCircleFill className='experience_details-icon'/>
-              <div>
-                <h4>Version Control</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-          </div>
-          </div>
       </div>
     </section>
   )
